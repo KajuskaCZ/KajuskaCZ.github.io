@@ -1,7 +1,142 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tutorial</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+    <link
+      rel="stylesheet"
+      href="C:\Users\karolina.pikorova\Documents\projects\test\main.css"
+    />
+    <script src="https://api.mapy.cz/loader.js"></script>
+    <script>
+      Loader.load();
+    </script>
+  </head>
+  <body>
+    <div class="topnav">
+      <div class="nav-container">
+        <div style="display: flex;">
+          <img
+            style="height: 5rem; margin: 0.5rem 0.5rem 0 0;"
+            src="C:/Users/karolina.pikorova/Documents/projects/test/assets/images/kocar_gold.svg"
+          />
+          <p class="topnav_title"><strong>Svatba na zámku</strong></p>
+        </div>
+        <div class="nav-container_menu">
+          <a class="active" href="#home">Mapa míst</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="mapa" style="width: 100%; height: 450px;"></div>
+
+    <div class="body-container">
+      <div class="detail">
+        <div id="castle-detail_title" class="main-title">hello</div>
+        <div class="detail_container">
+          <div>
+            <div class="subtitle">info</div>
+            <div class="card" style="width: 100%;">
+              <img
+                id="castle-intro-picture"
+                src="default.jpg"
+                alt="castle-intro-picture"
+              />
+              <div class="container">
+                <h4><b>Jane Doe</b></h4>
+                <p>Interior Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="detail_container-right">
+            <div class="subtitle">Místa na obřad</div>
+            <div class="grid" id="places">
+              <div class="card">
+                <img
+                  class="card-photo"
+                  src="https://www.zamek-horsovskytyn.cz/pamatky/horsovsky-tyn/fotogalerie/okruhy-park-svatby/svatebni-prostory/stara-kaple.jpg"
+                />
+                <div class="container">
+                  <h4><strong>Stará kaple</strong></h4>
+                  <p>30 osob, po celý rok</p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-photo"
+                  src="https://www.zamek-horsovskytyn.cz/pamatky/horsovsky-tyn/fotogalerie/okruhy-park-svatby/svatebni-prostory/erbak.jpg"
+                />
+                <div class="container">
+                  <h4><strong>Erbovní sál</strong></h4>
+                  <p>200 osob, únor - listopad</p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-photo"
+                  src="https://www.zamek-horsovskytyn.cz/website/var/tmp/image-thumbnails/30000/37697/thumb__auto_5100bd88df0075e780bbfb26685378c0/parkan.jpeg"
+                />
+                <div class="container">
+                  <h4><strong>Parkán</strong></h4>
+                  <p>100 osob, deben - říjen</p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-photo"
+                  src="https://www.zamek-horsovskytyn.cz/pamatky/horsovsky-tyn/fotogalerie/okruhy-park-svatby/svatebni-prostory/horsov.jpg"
+                />
+                <div class="container">
+                  <h4><strong>Kostel Všech svatých v Horšově</strong></h4>
+                  <p>Ve spolupráci s..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="all-places">
+        <div class="main-title">Všechna místa</div>
+        <div class="grid">
+          <ul>
+            <li class="collapsible">Hlavní město Praha</li>
+            <ul class="content">
+              <li>zamek</li>
+              <li>zamek</li>
+              <li>zamek</li>
+            </ul>
+            <li class="collapsible">Středočeský kraj</li>
+            <li>Jihočeský kraj</li>
+            <li>Plzeňský kraj</li>
+            <li>Karlovarský kraj</li>
+            <li>Ústecký kraj</li>
+            <li>Liberecký kraj</li>
+          </ul>
+          <ul>
+            <li>Královéhradecký kraj</li>
+            <li>Pardubický kraj</li>
+            <li>Kraj Vysočina</li>
+            <li>Jihomoravský kraj</li>
+            <li>Olomoucký kraj</li>
+            <li>Zlínský kraj</li>
+            <li>Moravskoslezský kraj</li>
+          </ul>
+        </div>
+      </div>
+      <script src="C:\Users\karolina.pikorova\Documents\projects\test\places.js"></script>
+      <script src="C:\Users\karolina.pikorova\Documents\projects\test\script.js"></script>
+      <div class="suggest-place">
+        <div class="main-title">Navrhnout místo</div>
+      </div>
+      <div class="contact">
+        <div class="main-title">Kontakt</div>
+      </div>
+      <footer>Kaja</footer>
+    </div>
+  </body>
 </html>
