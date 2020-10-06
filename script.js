@@ -1,8 +1,8 @@
 //const PI = ;
 var markerImagePath =
-  "Users/karolina.pikorova/Documents/projects/test/assets/images/pin.svg";
+  "assets/images/pin.svg";
 var selectedMarkerImagePath =
-  "Users/karolina.pikorova/Documents/projects/test/assets/images/pin_selected.svg";
+  "assets/images/pin_selected.svg";
 var markerToNeedRedraw = [];
 var selectedMarkerId = 0;
 
